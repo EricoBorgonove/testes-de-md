@@ -57,7 +57,7 @@ if (idade >= 18) {
 ````
 </details>
 
-4. ### Escreva um programa que verifica se uma pessoa pode dirigir (idade maior ou igual a 18 anos e habilitação válida).
+4.### Escreva um programa que verifica se uma pessoa pode dirigir (idade maior ou igual a 18 anos e habilitação válida).
 
 <details> 
   <summary>Clique para visualizar a resposta</summary>
@@ -74,7 +74,7 @@ if (idade >= 18 && cnh) {
 ````
 </details>
 
-5. ### Escreva um programa que verifica se um número é divisível por 3 e 5.
+5.### Escreva um programa que verifica se um número é divisível por 3 e 5.
 
 <details> 
   <summary>Clique para visualizar a resposta</summary>
@@ -169,7 +169,7 @@ if (altura >= 1.5 && idade >= 12) {
 ````
 </details>
 
-11. ### ***DESAFIO*** Escreva um programa que verifica se um número é um quadrado perfeito.
+11. ### **DESAFIO** Escreva um programa que verifica se um número é um quadrado perfeito.
 
 
 <details> 
