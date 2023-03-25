@@ -2,12 +2,15 @@
 
 
 
-> Todos os exercícios estão com respostas, somente abra para conferir, <br> não sabote seus estudos, primeiro tente, pense, pesquise, pergunte, <br> chore somente depois  olhe a resposta. 
+>Todos os exercícios estão com as respostas, porém, eu gostaria de incentivá-lo a tentar resolvê-los por conta própria antes de conferir as respostas. Reflita, pesquise e, se necessário, pergunte para alguém para mim ou no grupo, antes de olhar a resposta. Afinal, o processo de aprendizagem é muito mais valioso quando você se desafia a resolver os exercícios e compreende como chegar às respostas. Não sabote seus estudos, tente ao máximo e se esforce para aprender. Estamos aqui para ajudá-lo sempre que precisar.
+
+---
+>Então, para visualizar as respostas dos exercícios, basta clicar na palavra "resposta". Espero que esses exercícios sejam úteis para o seu aprendizado em JavaScript.
 
 1. ### Escreva um programa que verifica se um número é positivo, negativo ou zero.
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
 var num = 5;
@@ -27,7 +30,7 @@ if (num > 0) {
 2. ### Escreva um programa que verifica se um número é par ou ímpar.
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
 var num = 4;
@@ -44,10 +47,10 @@ if (num % 2 === 0) {
 3.  ### Escreva um programa que verifica se uma pessoa tem idade suficiente para votar (18 anos ou mais).
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
-let idade = 20;
+var idade = 20;
 
 if (idade >= 18) {
   console.log("Você tem idade suficiente para votar");
@@ -60,11 +63,11 @@ if (idade >= 18) {
 4. ### Escreva um programa que verifica se uma pessoa pode dirigir (idade maior ou igual a 18 anos e habilitação válida).
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
-let idade = 20;
-let cnh = true;
+var idade = 20;
+var cnh = true;
 
 if (idade >= 18 && cnh) {
   console.log("Você pode dirigir");
@@ -77,10 +80,10 @@ if (idade >= 18 && cnh) {
 5. ### Escreva um programa que verifica se um número é divisível por 3 e 5.
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
-let num = 15;
+var num = 15;
 
 if (num % 3 === 0 && num % 5 === 0) {
   console.log("O número é divisível por 3 e 5");
@@ -93,11 +96,11 @@ if (num % 3 === 0 && num % 5 === 0) {
 6. ### Escreva um programa que verifica se uma pessoa pode se aposentar (idade maior ou igual a 65 anos ou tempo de contribuição maior ou igual a 30 anos).
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
-let idade = 70;
-let contricuicao = 35;
+var idade = 70;
+var contricuicao = 35;
 
 if (idade >= 65 || contribuicao >= 30) {
   console.log("Você pode se aposentar");
@@ -110,11 +113,11 @@ if (idade >= 65 || contribuicao >= 30) {
 7. ### Escreva um programa que verifica se uma pessoa pode obter um empréstimo (renda mensal maior ou igual a 1000 e não possui nenhuma dívida em aberto).
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
-let renda = 1200;
-let debito = false;
+var renda = 1200;
+var debito = false;
 
 if (renda >= 1000 && !debito) {
   console.log("Você pode obter um empréstimo");
@@ -127,10 +130,10 @@ if (renda >= 1000 && !debito) {
 8. ### Escreva um programa que verifica se uma pessoa é adolescente (idade entre 13 e 19 anos).
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
-let idade = 15;
+var idade = 15;
 
 if (idade >= 13 && idade <= 19) {
   console.log("Você é um adolescente");
@@ -155,11 +158,11 @@ if (idade >= 13 && idade <= 19) {
 10. ### Escreva um programa que verifica se uma pessoa pode entrar em uma montanha-russa (altura maior ou igual a 1,5 metros e idade maior ou igual a 12 anos).
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
-let altura = 1.6;
-let idade = 15;
+var altura = 1.6;
+var idade = 15;
 
 if (altura >= 1.5 && idade >= 12) {
   console.log("Você pode entrar na montanha-russa");
@@ -173,11 +176,11 @@ if (altura >= 1.5 && idade >= 12) {
 
 
 <details> 
-  <summary>Clique para visualizar a resposta</summary>
+  <summary>resposta</summary>
 
 ````js
-let num = 25;
-let sqrt = Math.sqrt(num);
+var num = 25;
+var sqrt = Math.sqrt(num);
 
 if (sqrt % 1 === 0) {
   console.log("O número é um quadrado perfeito");
