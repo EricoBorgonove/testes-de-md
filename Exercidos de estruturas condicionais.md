@@ -190,10 +190,41 @@ if (sqrt % 1 === 0) {
 ````
 </details>
 
+12. ### Escreva um programa que verifica se uma pessoa tem acesso à área VIP (nome na lista e idade maior ou igual a 21 anos).
+
+<details> 
+  <summary>resposta</summary>
+
+````js
+var nome = "João";
+var idade = 25;
+var estaNaLista = true;
+
+if (idade >= 21 && estaNaLista) {
+  console.log("Você tem acesso à área VIP");
+} else {
+  console.log("Você não tem acesso à área VIP");
+}
+````
+</details>
 
 
 
+13. ### Escreva um programa que verifica se um número é par e maior que 10.
 
+<details> 
+  <summary>resposta</summary>
+
+````js
+var num = 12;
+
+if (num % 2 === 0 && num > 10) {
+  console.log("O número é par e maior que 10");
+} else {
+  console.log("O número não é par e maior que 10");
+}
+````
+</details>
 
 
 
